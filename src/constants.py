@@ -3,7 +3,7 @@ pathToImages = '/home/bat/data/salicon/images'
 pathToMapsTrain = '/home/bat/data/salicon/maps/train'
 pathToMapsVal = '/home/bat/data/salicon/maps/val'
 
-# Path to processed data
+# Path to processed data. Created using preprocess.py
 pathToResizedImagesTrain = '/home/bat/data/salicon/images256x192_train'
 pathToResizedMapsTrain = '/home/bat/data/salicon/maps256x192_train'
 pathToResizedImagesVal = '/home/bat/data/salicon/images256x192_val'
