@@ -23,9 +23,6 @@ pathToResizedMapsVal = '/home/bat/data/salicon/maps256x192_val'
 
 pathToResizedImagesTest = '/home/bat/data/salicon/images256x192_test'
 
-pathToPickle = '/home/bat/data/pickle/256x192'
-
-
 INPUT_SIZE = (256, 192)
 
 if not os.path.exists(pathToResizedImagesVal):
