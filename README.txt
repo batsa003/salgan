@@ -1,7 +1,7 @@
-PyTorch Implementation of Generating Videos with Scene Dynamics.
+PyTorch Implementation of SalGAN: Visual Saliency Prediction with Generative Adversarial Networks
 =====================================
 
-This repository contains a PyTorch implementation of [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](http://web.mit.edu/vondrick/tinyvideo/) by Carl Vondrick, Hamed Pirsiavash, Antonio Torralba, appeared at NIPS 2016. The model learns to generate tiny videos using adversarial networks.
+This repository contains a PyTorch implementation of [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](http://web.mit.edu/vondrick/tinyvideo/) by Junting Pan et al,. The model learns to predict a saliency map given an input image.
 
 I hope you find this implementation useful.
 
@@ -27,5 +27,5 @@ We used the SALICON dataset for training.
 
 Reference:
 ---------
-http://carlvondrick.com/tinyvideo/
+https://imatge-upc.github.io/saliency-salgan-2017/
 
