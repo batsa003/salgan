@@ -7,10 +7,12 @@ I hope you find this implementation useful.
 
 Results
 -------------------
+TODO: 
 
 
 Example Generations
 -------------------
+TODO: Predict.ipynb
 
 
 Training
@@ -20,6 +22,10 @@ The code requires a pytorch installation.
 Before you train the model, preprocess the dataset by running *preprocess.py* to resize the ground truth images and saliency maps to 256x192. 
 
 To train the model, refer to main.py.
+
+Pretrained Model
+--------
+TODO: 
 
 Data
 ----
