@@ -1,7 +1,7 @@
 PyTorch Implementation of SalGAN: Visual Saliency Prediction with Generative Adversarial Networks
 =====================================
 
-This repository contains a PyTorch implementation of [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](http://web.mit.edu/vondrick/tinyvideo/) by Junting Pan et al,. The model learns to predict a saliency map given an input image.
+This repository contains a PyTorch implementation of [SalGAN: Visual Saliency Prediction with Generative Adversarial Networks](https://github.com/imatge-upc/saliency-salgan-2017) by Junting Pan et al,. The model learns to predict a saliency map given an input image.
 
 I hope you find this implementation useful.
 
