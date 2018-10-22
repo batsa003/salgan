@@ -66,7 +66,7 @@ for curr_file in tqdm(list_img_files):
     #print('Written image: ', pathToResizedImages, curr_file, ' with size = ', imageResized.shape)
     #print('Written map: ', pathToMaps, curr_file, ' with size = ', mapResized.shape)
 
-list_img_files = [k.split('/')[-1].split('.')[0] for k in glob.glob(os.path.join(pathToImages, '*test*'))]
+list_img_files = [k.split(os.sep)[-1].split('.')[0] for k in glob.glob(os.path.join(pathToImages, '*test*'))]
 print(len(list_img_files))
 for curr_file in tqdm(list_img_files):
     full_img_path = os.path.join(pathToImages, curr_file + '.jpg')
