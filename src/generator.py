@@ -23,7 +23,7 @@ def make_deconv_layers(cfg):
     in_channels = 512
     for v in cfg:
         if v == 'U':
-            layers += [nn.Upsample(scale_factor=2)]
+            layers += [nn.functional.interpolate(scale_factor=2)]
         else:
             deconv = deconv2d(in_channels, v)
             layers += [deconv]
